@@ -1,6 +1,6 @@
 module github.com/lima-vm/vz/example/gui-linux
 
-go 1.19
+go 1.22.0
 
 replace github.com/lima-vm/vz/v4 => ../../
 
@@ -11,8 +11,8 @@ require (
 
 require (
 	github.com/Code-Hex/go-infinity-channel v1.0.0 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
-	golang.org/x/mod v0.6.0 // indirect
-	golang.org/x/sys v0.16.0 // indirect
-	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	golang.org/x/mod v0.21.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
+	golang.org/x/term v0.25.0 // indirect
 )
