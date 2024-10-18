@@ -95,8 +95,8 @@
             attributes:@{
                 NSForegroundColorAttributeName : [NSColor labelColor]
             }] autorelease];
-    NSURL *repositoryURL = [NSURL URLWithString:@"https://github.com/Code-Hex/vz"];
-    NSMutableAttributedString *repository = [self makeHyperLink:@"github.com/Code-Hex/vz" withURL:repositoryURL];
+    NSURL *repositoryURL = [NSURL URLWithString:@"https://github.com/lima-vm/vz"];
+    NSMutableAttributedString *repository = [self makeHyperLink:@"github.com/lima-vm/vz" withURL:repositoryURL];
     [poweredByAttr appendAttributedString:repository];
     [poweredByAttr addAttribute:NSFontAttributeName
                           value:[NSFont systemFontOfSize:12]
@@ -368,7 +368,7 @@
 
 - (void)reportIssue:(id)sender
 {
-    NSString *url = @"https://github.com/Code-Hex/vz/issues/new";
+    NSString *url = @"https://github.com/lima-vm/vz/issues/new";
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:url]];
 }
 

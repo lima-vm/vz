@@ -1,4 +1,4 @@
-module github.com/Code-Hex/vz/v3
+module github.com/lima-vm/vz/v4
 
 go 1.19
 

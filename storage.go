@@ -14,7 +14,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 type baseStorageDeviceAttachment struct{}

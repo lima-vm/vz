@@ -12,7 +12,7 @@ import "C"
 import (
 	"runtime"
 
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // DebugStubConfiguration is an interface to debug configuration.

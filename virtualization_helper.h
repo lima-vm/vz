@@ -5,9 +5,9 @@
 
 NSDictionary *dumpProcessinfo();
 
-#define RAISE_REASON_MESSAGE                                                                               \
-    "This may possibly be a bug due to library handling errors.\n"                                         \
-    "I would appreciate it if you could report it to https://github.com/Code-Hex/vz/issues/new/choose\n\n" \
+#define RAISE_REASON_MESSAGE                                                                              \
+    "This may possibly be a bug due to library handling errors.\n"                                        \
+    "I would appreciate it if you could report it to https://github.com/lima-vm/vz/issues/new/choose\n\n" \
     "Information: %@\n"
 
 #define RAISE_UNSUPPORTED_MACOS_EXCEPTION()                   \

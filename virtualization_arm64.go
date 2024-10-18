@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/Code-Hex/vz/v3/internal/objc"
-	"github.com/Code-Hex/vz/v3/internal/progress"
+	"github.com/lima-vm/vz/v4/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/progress"
 )
 
 // WithStartUpFromMacOSRecovery is an option to specifiy whether to start up
@@ -364,7 +364,7 @@ func downloadRestoreImage(ctx context.Context, url string, destPath string) (*pr
 		return nil, err
 	}
 
-	req.Header.Add("User-Agent", "github.com/Code-Hex/vz")
+	req.Header.Add("User-Agent", "github.com/lima-vm/vz")
 	req.Header.Add("Range", fmt.Sprintf("bytes=%d-", fileInfo.Size()))
 
 	resp, err := http.DefaultClient.Do(req)

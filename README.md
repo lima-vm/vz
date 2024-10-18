@@ -1,15 +1,17 @@
 vz - Go binding with Apple [Virtualization.framework](https://developer.apple.com/documentation/virtualization?language=objc)
 =======
 
-[![Build](https://github.com/Code-Hex/vz/actions/workflows/compile.yml/badge.svg)](https://github.com/Code-Hex/vz/actions/workflows/compile.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/Code-Hex/vz/v3.svg)](https://pkg.go.dev/github.com/Code-Hex/vz/v3)
+[![Build](https://github.com/lima-vm/vz/actions/workflows/compile.yml/badge.svg)](https://github.com/lima-vm/vz/actions/workflows/compile.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/lima-vm/vz/v4.svg)](https://pkg.go.dev/github.com/lima-vm/vz/v4)
 
 vz provides the power of the Apple Virtualization.framework in Go. Put here is block quote of overreview which is written what is Virtualization.framework from the document.
 
 > The Virtualization framework provides high-level APIs for creating and managing virtual machines (VM) on Apple silicon and Intel-based Mac computers. Use this framework to boot and run macOS or Linux-based operating systems in custom environments that you define. The framework supports the [Virtual I/O Device (VIRTIO)](https://docs.oasis-open.org/virtio/virtio/v1.1/csprd01/virtio-v1.1-csprd01.html) specification, which defines standard interfaces for many device types, including network, socket, serial port, storage, entropy, and memory-balloon devices.
 
+This repository <https://github.com/lima-vm/vz> was forked from <https://github.com/Code-Hex/vz/tree/c3198942b1b797ac424b673e06769f45bef0d275>.
+
 ## Usage
 
-Please see the [example](https://github.com/Code-Hex/vz/tree/main/example) directory.
+Please see the [example](./example) directory.
 
 ## Requirements
 
@@ -21,10 +23,8 @@ Please see the [example](https://github.com/Code-Hex/vz/tree/main/example) direc
 Initialize your project by creating a folder and then running `go mod init github.com/your/repo` ([learn more](https://go.dev/blog/using-go-modules)) inside the folder. Then install vz with the go get command:
 
 ```
-$ go get github.com/Code-Hex/vz/v3
+$ go get github.com/lima-vm/vz/v4
 ```
-
-Deprecated older versions (v1, v2).
 
 ## Feature Overview
 
@@ -74,6 +74,7 @@ If you compile using an older Xcode SDK, you will get the following warnings.
 
 This example warns that macOS 12.3 API and macOS 13 API are not available in the binary build. This means these APIs are not available even if you are running this binary on a modern OS (macOS 12.3 or macOS 13). 
 
+<!-- If you wish to change Code-Hex/vz/v3 below to lima-vm/vz/v4, make sure to obtain the actual console output with lima-vm/vz/v4 -->
 ```
 $ go build .
 # github.com/Code-Hex/vz/v3
@@ -112,11 +113,13 @@ There are two items to check.
 
 ## Knowledge for the Apple Virtualization.framework
 
-There is a lot of knowledge required to use this Apple Virtualization.framework, but the information is too scattered and very difficult to understand. In most cases, this can be found in [the official documentation](https://developer.apple.com/documentation/virtualization?language=objc). However, the Linux kernel knowledge required to use the feature provided by this framework is not documented. Therefore, I have compiled the knowledge I have gathered so far into this wiki.
+Quote from [@Code-Hex](https://github.com/Code-Hex)'s upstream repository <https://github.com/Code-Hex/vz/tree/c3198942b1b797ac424b673e06769f45bef0d275>:
 
-https://github.com/Code-Hex/vz/wiki
-
-Anyone is free to edit this wiki. It would help someone if you could add information not listed here. Let's make a good wiki together!
+> There is a lot of knowledge required to use this Apple Virtualization.framework, but the information is too scattered and very difficult to understand. In most cases, this can be found in [the official documentation](https://developer.apple.com/documentation/virtualization?language=objc). However, the Linux kernel knowledge required to use the feature provided by this framework is not documented. Therefore, I have compiled the knowledge I have gathered so far into this wiki.
+>
+> https://github.com/Code-Hex/vz/wiki
+>
+> Anyone is free to edit this wiki. It would help someone if you could add information not listed here. Let's make a good wiki together!
 
 ## Testing
 

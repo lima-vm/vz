@@ -16,7 +16,7 @@ import (
 	"runtime/cgo"
 	"unsafe"
 
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // LinuxRosettaAvailability represents an availability of Rosetta support for Linux binaries.

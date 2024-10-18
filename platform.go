@@ -13,7 +13,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // PlatformConfiguration is an interface for a platform configuration.

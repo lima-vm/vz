@@ -3,7 +3,7 @@
 
 package main
 
-import "github.com/Code-Hex/vz/v3"
+import "github.com/lima-vm/vz/v4"
 
 func createRosettaDirectoryShareConfiguration() (*vz.VirtioFileSystemDeviceConfiguration, error) {
 	return nil, errIgnoreInstall
