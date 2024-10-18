@@ -9,7 +9,7 @@ package vz
 # include "virtualization_14_arm64.h"
 */
 import "C"
-import "github.com/Code-Hex/vz/v3/internal/objc"
+import "github.com/lima-vm/vz/v4/internal/objc"
 
 // ValidateSaveRestoreSupport Determines whether the framework can save or restore the VM’s current configuration.
 //

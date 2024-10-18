@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Code-Hex/vz/v3"
+	"github.com/lima-vm/vz/v4"
 )
 
 func TestLinuxRosettaAvailabilityString(t *testing.T) {

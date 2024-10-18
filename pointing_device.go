@@ -8,7 +8,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // PointingDeviceConfiguration is an interface for a pointing device configuration.

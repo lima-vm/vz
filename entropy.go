@@ -7,7 +7,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // VirtioEntropyDeviceConfiguration is used to expose a source of entropy for the guest operating system’s random-number generator.

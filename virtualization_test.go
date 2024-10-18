@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Code-Hex/vz/v3"
-	"github.com/Code-Hex/vz/v3/internal/testhelper"
+	"github.com/lima-vm/vz/v4"
+	"github.com/lima-vm/vz/v4/internal/testhelper"
 	"golang.org/x/crypto/ssh"
 )
 

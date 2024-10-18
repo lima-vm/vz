@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Code-Hex/vz/v3"
+	"github.com/lima-vm/vz/v4"
 )
 
 func TestVirtioSocketListener(t *testing.T) {

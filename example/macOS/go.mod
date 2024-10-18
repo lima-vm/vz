@@ -1,10 +1,10 @@
-module github.com/Code-Hex/vz/example/macOS
+module github.com/lima-vm/vz/example/macOS
 
 go 1.19
 
-replace github.com/Code-Hex/vz/v3 => ../../
+replace github.com/lima-vm/vz/v4 => ../../
 
-require github.com/Code-Hex/vz/v3 v3.0.0-00010101000000-000000000000
+require github.com/lima-vm/vz/v4 v4.0.0-00010101000000-000000000000
 
 require (
 	github.com/Code-Hex/go-infinity-channel v1.0.0 // indirect

@@ -10,7 +10,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // MacGraphicsDeviceConfiguration is a configuration for a display attached to a Mac graphics device.

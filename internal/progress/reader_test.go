@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Code-Hex/vz/v3/internal/progress"
+	"github.com/lima-vm/vz/v4/internal/progress"
 )
 
 func TestReader(t *testing.T) {

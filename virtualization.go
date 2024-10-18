@@ -14,7 +14,7 @@ import (
 	"unsafe"
 
 	infinity "github.com/Code-Hex/go-infinity-channel"
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // VirtualMachineState represents execution state of the virtual machine.

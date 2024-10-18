@@ -16,7 +16,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // SocketDeviceConfiguration for a socket device configuration.

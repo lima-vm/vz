@@ -7,7 +7,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/Code-Hex/vz/v3/internal/objc"
+	"github.com/lima-vm/vz/v4/internal/objc"
 )
 
 // GraphicsDeviceConfiguration is an interface for a graphics device configuration.
