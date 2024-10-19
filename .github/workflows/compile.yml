@@ -29,8 +29,8 @@ jobs:
       matrix:
         os:
         - macos-13  # Intel
-        - macos-14-large  # Intel
-        - macos-15-large  # Intel
+        - macos-14  # ARM
+        - macos-15  # ARM
         go:
         - '^1.22'
         - '^1.23'
@@ -47,6 +47,9 @@ jobs:
         run: make -C example/linux
       - name: Build GUI Linux
         run: make -C example/gui-linux
+      - name: Build macOS
+        run: make -C example/macOS
+        if: runner.arch == 'ARM64'
   test:
     needs: build
     runs-on: ${{ matrix.os }}
